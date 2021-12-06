@@ -1,4 +1,4 @@
-name: Dawnstar Node JS Workflow
+name: Web Doctor Node JS CI
 
 on: [push, pull_request]
 
