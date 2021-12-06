@@ -1,4 +1,4 @@
-name: Web Doctor Node JS CI
+name: Web Doctor Node JS CI - npm
 
 on: [push, pull_request]
 
