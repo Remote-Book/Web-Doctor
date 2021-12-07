@@ -1,0 +1,18 @@
+version: "3"
+services:
+  web-doctor:
+    container_name: frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: on-failure
+    environment:
+      NODE_ENV: "development"
+    ports:
+      - "8080:3000"
+    networks:
+      - web-doctor
+
+networks:
+  web-doctor:
+    driver: bridge
